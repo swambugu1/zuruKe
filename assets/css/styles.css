@@ -71,6 +71,12 @@ section p {
     text-align: center;
 }
 
+@media (max width: 800px) {
+	section {
+		padding: 50px 20px;
+	}
+}
+
 /* Header styles */
 header {
     position: absolute;
@@ -101,6 +107,17 @@ header nav {
 
 header nav li {
 	margin: 0 15px;
+}
+
+@media (max width: 800px) {
+	header {
+		padding: 20px 50px;
+		flex-direction: column; 
+	}
+
+	header h2 {
+		margin-bottom: 15px;
+	}
 }
 
 /* Hero Styles */
